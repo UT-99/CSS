@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        #listThirdItem{
+           color: maroon;
+           letter-spacing: 5pt; 
+           font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="myMainHeading">The First CSS Assignment</h1>
+    <hr>
+    <h2 class="mySecondHeading">What is CSS?</h2>
+    <ol class="listItems">
+        <li>CSS Stands for Cascading Style Sheets.</li>
+        <br>
+        <li>CSS describes how <strong>HTML</strong> elements are to be displayed on screen, paper, or in other media.</li>
+        <br>
+        <li><span><strike><strong>Css is not neccesary </strong></strike></span><span><strong class="myStrongTag">CSS saves a lot of work.</strong> </span> It can control the layout of multiple pages all at once.</li>
+        <br>
+        <li class="IttalicClass">External Style sheets are stored in CSS files.</li>
+    </ol>
+    <h2 class="mySecondHeading">CSS can be added to HTML documents in 3 ways:</h2>
+    <ul>
+        <li style="letter-spacing: 5pt;color: maroon;font-size: 20px;">Inline - by uisng the style attribute inside HTML elements.</li>
+        <li id ="listThirdItem">Internal - by using a style element in the head section.</li>
+        <li id ="myExternalList">External - by using  a link element to link to an external CSS file.</li>
+        <li id ="MyLastItem" style="font-size: 19px;">The most common way to add CSS, is to keep the styles in external CSS files. However,<b class="myStrongTag"> in this tutorial we will use inline and internal styles,</b> because it is easier to demonstrate, and easier for you  to try it yourself.</li>
+    </ul>
+    <p class="listItems">When comparing CSS Class vs ID, the difference is that CSS class applies style to multiple elements. ID, on the other hand, applies a style to one unique element, ID is also special that you can use a special URL to link directly to an element and it's used by Javascript. </p>
+    <p class="listItems">In CSS , selectors are used to target a specific element or range of elements in a web page. Once a element has been targeted , a style or set of styles can be applied to the element.</p>
+    <p class="listItems">There is a wide range of selectors avalaible. Two of the most commonly used are class and ID. Both are used to target the elements to which a style should be applied.  </p>
+    <a href="https://www.prepbytes.com/" class="listItems" id ="anchorLink">Prepbytes Home</a>
+    
+    
+    
+</body>
+</html>
+

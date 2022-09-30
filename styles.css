@@ -1,0 +1,43 @@
+#myMainHeading{
+    color : red;
+}
+
+.mySecondHeading{
+    color:red;
+    font-style: italic;
+
+}
+
+.listItems{
+    color: maroon;
+}
+
+.myStrongTag
+{
+    background-color: yellow;
+    font-size: 20px;
+}
+
+.IttalicClass{
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+
+#myExternalList{
+    color: maroon;
+    letter-spacing: 5pt;
+    word-spacing: 3pt;
+    font-size: 20px;
+}
+
+#anchorLink{
+    text-decoration: none;
+    background-color: yellow;
+    font-style: italic;
+}
+
+#MyLastItem{
+    color: maroon;
+    letter-spacing: 5pt;
+}
